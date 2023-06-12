@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Create Release Tag
         id: tag
-        uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml
+        uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
         with:
           command: manifest # use configs in release-please-config.json
           release-type: simple
