@@ -12,10 +12,11 @@ permissions:
 
 jobs:
   tag-and-release:
-    uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
+    uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
     with:
-      command: manifest
-      release-type: simple
+      run-name: "terrayaml"
+      # command: manifest
+      # release-type: simple
 
     # runs-on: ubuntu-latest
     # outputs:
