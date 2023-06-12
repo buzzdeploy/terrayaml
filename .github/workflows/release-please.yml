@@ -3,7 +3,7 @@ name: Relase Please Merge
 on:
   push:
     branches:
-      - main
+    - main
 
 permissions:
   contents: write
