@@ -12,6 +12,7 @@ permissions:
 jobs:
   tag-and-release:
     uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
+    secrets: inherit
     with:
       run-name: "tacos"
       # command: manifest
