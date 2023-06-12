@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.0.0 (2023-06-12)
+
+<!-- Release notes generated using configuration in .github/release.yaml at main -->
+
+## What's Changed
+### Other Changes
+* fix: Remote release by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/1
+* fix: adding dev region 1 additional commute by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/2
+* fixed: simplified release by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/3
+* fix: adding more compute dev region 2 by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/4
+* fix: formatting syntax by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/5
+* fix: regular local release by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/6
+* fix: release files by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/7
+* fix: renaming worker node by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/8
+
+## New Contributors
+* @wirewc made their first contribution in https://github.com/buzzdeploy/terrayaml/pull/1
+
+**Full Changelog**: https://github.com/buzzdeploy/terrayaml/commits/v1.0.0
+
 ## 0.6.0 (2023-06-10)
 
 <!-- Release notes generated using configuration in .github/release.yaml at main -->
