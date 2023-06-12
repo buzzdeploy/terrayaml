@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Create Release Tag
         id: tag
-        uses: google-github-actions/release-please-action@v3
+        uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml
         with:
           command: manifest # use configs in release-please-config.json
           release-type: simple
