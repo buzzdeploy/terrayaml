@@ -9,11 +9,10 @@ permissions:
   contents: write
   pull-requests: write
   packages: write
+  repository-projects: read
 
 jobs:
   release-terraform:
-    uses: defenseunicorns/uds-package-dubbd/.github/workflows/publish.dubbd.package.yaml@main
-    with:
-      working_dir: /runner/
+    uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
     
 # buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
