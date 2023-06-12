@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   tag-new-version:
+    runs-on: ubuntu-latest
 	outputs:
       release_created: ${{ steps.release-flag.outputs.release_created }}
     steps:
