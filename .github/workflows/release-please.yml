@@ -11,4 +11,8 @@ permissions:
 
 jobs:
   release-terraform:
-    uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
+    uses: defenseunicorns/uds-package-dubbd/.github/workflows/publish.dubbd.package.yaml@main
+    with:
+      working_dir: /runner/
+    
+# buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
