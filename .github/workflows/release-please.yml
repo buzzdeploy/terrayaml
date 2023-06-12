@@ -14,7 +14,7 @@ jobs:
   tag-and-release:
     uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
     with:
-      run-name: "taco"
+      run-name: "tacos"
       # command: manifest
       # release-type: simple
 
