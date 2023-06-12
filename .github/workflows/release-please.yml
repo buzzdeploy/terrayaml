@@ -12,7 +12,18 @@ permissions:
 
 jobs:
   tag-new-version:
-    uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
-    with:
-      command: manifest # use configs in release-please-config.json
-      release-type: simple
+	outputs:
+      release_created: ${{ steps.release-flag.outputs.release_created }}
+    steps:
+      - name: Create Release Tag
+        id: tag
+        uses: google-github-actions/release-please-action@v3
+        with:
+          command: ${{ inputs.command }}
+          release-type: ${{ inputs.release-type }} 
+      - id: release-flag
+        run: echo "release_created=${{ steps.tag.outputs.release_created || false }}" >> $GITHUB_OUTPUT
+    #  uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
+    #  with:
+    #    command: manifest # use configs in release-please-config.json
+    #    release-type: simple
