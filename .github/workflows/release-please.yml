@@ -3,7 +3,7 @@ name: Relase Please Merge
 on:
   push:
     branches:
-      - main
+    - main
 
 permissions:
   contents: write
@@ -12,6 +12,6 @@ permissions:
 jobs:
   tag-new-version:
     uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
-    with:
-      command: manifest # use configs in release-please-config.json
-      release-type: simple
+      with:
+        command: manifest # use configs in release-please-config.json
+        release-type: simple
