@@ -14,7 +14,7 @@ systems:
     type   : "g6-standard-2"
     private_ip : true
     tags       : ["buzzcrate"]
-  - label: "k3sworker5"
+  - label: "k3sworker2"
     image  : "linode/arch"
     group  : "Terraform"
     region : "us-east"
