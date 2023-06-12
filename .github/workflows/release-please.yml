@@ -11,7 +11,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  tag-new-version:
+  tag-and-release:
     uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
     with:
       command: manifest
