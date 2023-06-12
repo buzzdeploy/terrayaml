@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - remote-release
+      - remote-worker
 
 permissions:
   contents: write
