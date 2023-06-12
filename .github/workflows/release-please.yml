@@ -1,5 +1,5 @@
 ---
-name: Relase Please Merge
+name: Release Please Merge
 on:
   push:
     branches:
@@ -14,7 +14,7 @@ jobs:
   tag-and-release:
     uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@sast
     with:
-      run-name: "terrayaml"
+      run-name: "taco"
       # command: manifest
       # release-type: simple
 
