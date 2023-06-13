@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1 (2023-06-13)
+
+<!-- Release notes generated using configuration in .github/release.yaml at main -->
+
+## What's Changed
+### Other Changes
+* fix: Remote release by @wirewc in https://github.com/buzzdeploy/terrayaml/pull/11
+
+
+**Full Changelog**: https://github.com/buzzdeploy/terrayaml/compare/v1.0.0...v1.0.1
+
 ## 1.0.0 (2023-06-12)
 
 <!-- Release notes generated using configuration in .github/release.yaml at main -->
