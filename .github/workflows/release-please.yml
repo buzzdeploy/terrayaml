@@ -11,10 +11,9 @@ permissions:
   packages: write
   repository-projects: read
   
-
 jobs:
   release-terraform:
-    uses: buzzdeploy/tf-module-template/.github/workflows/release-terraform.yml@rerelease
+    uses: defenseunicorns/uds-common-workflows/.github/workflows/release-terraform.yml@27-create-common-github-actions-workflow-for-releasing-iac
     with:
       command: manifest
       release-type: simple
